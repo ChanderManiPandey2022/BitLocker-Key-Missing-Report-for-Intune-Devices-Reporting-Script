@@ -1,3 +1,25 @@
-BitLocker Key Missing Report for Intune Devices Reporting Script
+<#
+.SYNOPSIS
+BitLocker Key Missing Report for Intune Devices_Reporting Script
+
+.DESCRIPTION
+This script checks for the presence of BitLocker recovery keys for each Intune-managed Windows device using the Microsoft Graph API. 
+It provides a detailed report showing which devices have BitLocker keys stored in Intune and which do not. 
+The script outputs a compliance summary, including percentages of devices with and without keys.
+
+You must be connected to Microsoft Graph with the required permissions before running the script.
+
+.DEMO
+YouTube video link--> https://www.youtube.com/@ChanderManiPandey
+
+.OUTPUTS
+Displays a summary of devices with and without BitLocker keys, compliance percentage, and optionally detailed output per device.
+
+.LOG LOCATION
+Output will be displayed in the console. Optional: Extend the script to export the report to a CSV or log file.
 
 Script Download Link:-
+
+https://github.com/ChanderManiPandey2022/BitLocker-Key-Missing-Report-for-Intune-Devices-Reporting-Script/releases/download/v1.0.0/BitLocker.Key.Missing.Report.for.Intune.Devices_Reporting.Script.ps1
+
+
